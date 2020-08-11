@@ -50,7 +50,7 @@ View(data)
                    
                    
                    
-    subject    
+   subject    
  Min.   : 1.0  
  1st Qu.: 8.0  
  Median :15.5  
@@ -59,7 +59,7 @@ View(data)
  Max.   :30.0 
  
  
-     value         
+   value         
  Min.   :-0.99767  
  1st Qu.:-0.96205  
  Median :-0.46989  
