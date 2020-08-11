@@ -20,7 +20,7 @@ The file with the scrip and all the process is `run_analysis.R` it can run as lo
 In file `codebook.Rmd` is the Code Book that explains the variables in The tidy data set is in the `tidydata` file but it can be read automatially in your computer by entering the following script:
 
 ```{r}
-address <- "https://coursera-assessments.s3.amazonaws.com/assessments/1597151031359/0c20cebf-9644-44cf-dd7a-8054df32c212/finaldata.txt"
+address <- "https://raw.githubusercontent.com/rbkwork/run_analysis/master/tidydata"
 address <- sub("^https", "http", address)
 data <- read.table(url(address), header = TRUE)
 View(data)
