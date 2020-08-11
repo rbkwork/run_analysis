@@ -1,7 +1,8 @@
 library(data.table)
 library(tidyverse)
 library(reshape2)
-setwd("D:/R projects/coursera/run_analysis/UCI HAR Dataset (1)")
+unzip("./getdata_projectfiles_UCI HAR Dataset.zip")
+setwd("./UCI HAR Dataset")
 
 temp <- list.files(pattern="*.txt",all.files = T)    #take archive path
 temp_names<-sub(".txt","",temp)%>%tolower()            #use paths to make names (all in lower-case)
