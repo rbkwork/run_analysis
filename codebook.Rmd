@@ -1,12 +1,36 @@
 ---
 title: "codebook"
-output: html_document
+output:
 ---
-
-| Variable  | Type | Description |
-|--------|-------|---------|
-|features|character| This are the signals explained in the features_info file, but only the set of variables estimated mean and str|
-| activity | character | The six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) performed |
-| subject | numeric | A number for each of the 30 person who performed the activity |
-| Value | numeric | The mean of the values estimated for each observation |
+#measurement 
+This are the signals explained in the features_info file, but only the set of variables estimated mean and str
+ Length:11880      
+ Class :character  
+ Mode  :character  
+                   
+                   
+#activity
+The six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) performed
+ Length:11880      
+ Class :character  
+ Mode  :character  
+                   
+                   
+#subject 
+A number for each of the 30 person who performed the activity
+ Min.   : 1.0  
+ 1st Qu.: 8.0  
+ Median :15.5  
+ Mean   :15.5  
+ 3rd Qu.:23.0  
+ Max.   :30.0  
+ 
+#value 
+The mean of the values estimated for each observation
+ Min.   :-0.99767  
+ 1st Qu.:-0.96205  
+ Median :-0.46989  
+ Mean   :-0.48436  
+ 3rd Qu.:-0.07836  
+ Max.   : 0.97451
      
