@@ -2,7 +2,7 @@
 title: "codebook"
 output:
 ---
-#measurement 
+#features
 This are the signals explained in the features_info file, but only the set of variables estimated mean and str
  Length:11880      
  Class :character  
