@@ -1,0 +1,12 @@
+---
+title: "codebook"
+output: html_document
+---
+
+| Variable  | Type | Description |
+|--------|-------|---------|
+|features|character| This are the signals explained in the features_info file, but only the set of variables estimated mean and str|
+| activity | character | The six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) performed |
+| subject | numeric | A number for each of the 30 person who performed the activity |
+| Value | numeric | The mean of the values estimated for each observation |
+     
