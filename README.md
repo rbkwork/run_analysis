@@ -36,12 +36,34 @@ View(data)
 | subject | numeric | A number for each of the 30 person who performed the activity |
 | value | numeric | The mean of the values estimated for each observation |
 
+   features        
+ Length:11880      
+ Class :character  
+ Mode  :character  
+                   
+                   
+                   
+   activity        
+ Length:11880      
+ Class :character  
+ Mode  :character  
+                   
+                   
+                   
+    subject    
+ Min.   : 1.0  
+ 1st Qu.: 8.0  
+ Median :15.5  
+ Mean   :15.5  
+ 3rd Qu.:23.0  
+ Max.   :30.0 
+ 
+ 
+     value         
+ Min.   :-0.99767  
+ 1st Qu.:-0.96205  
+ Median :-0.46989  
+ Mean   :-0.48436  
+ 3rd Qu.:-0.07836  
+ Max.   : 0.97451 
 
-
-   features           activity            subject         value         
- Length:11880       Length:11880       Min.   : 1.0   Min.   :-0.99767  
- Class :character   Class :character   1st Qu.: 8.0   1st Qu.:-0.96205  
- Mode  :character   Mode  :character   Median :15.5   Median :-0.46989  
-                                       Mean   :15.5   Mean   :-0.48436  
-                                       3rd Qu.:23.0   3rd Qu.:-0.07836  
-                                       Max.   :30.0   Max.   : 0.97451  
