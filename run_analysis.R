@@ -32,5 +32,5 @@ tidy_data<-rename(tidy_data, value = ".")
 tidy_data$subject<- as.numeric(tidy_data$subject) 
 
 
-write.table(tidy_data,file="./tidydata") #make a file with the data table
+write.table(tidy_data,file="./tidydata",row.name=FALSE) #make a file with the data table
 
